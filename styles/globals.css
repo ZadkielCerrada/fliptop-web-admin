@@ -1,0 +1,98 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.header__container {
+  background-color: red;
+  padding: 20px;
+  padding-bottom: 0;
+  
+}
+
+.header__content {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  justify-content: center;
+}
+
+.header__links:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.header__links {
+  padding: 5px;
+  font-size: x-large;
+}
+
+.pokemon__container {
+  max-width: 1280px;
+  background-color: gray;
+  margin: auto;
+  padding: 20px;
+}
+
+.pokemon__card {
+  display: grid;
+  width: 200px;
+  margin: 16px;
+
+}
+
+.pokemon__image__background {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.pokemon__number {
+  padding-left: 10px;
+  margin-top: 0;
+}
+
+.pokemon__name {
+  font-size: x-large;
+  margin: 12px;
+  font-weight: bold;
+  
+}
+
+.pokemon__types {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.pokemon__grass__type {
+  padding: 1px 20px;
+  background-color: green;
+  margin-right: 5px;
+}
+
+.pokemon__poison__type {
+  padding: 1px 20px;
+  background-color: purple;
+}
